@@ -1,0 +1,9 @@
+1. Vấn đề, khó khăn
+ - Em chưa tích hợp được với redux.
+ - Ở 'Summary' em vẫn chưa hiểu cách tính cho các trường 'starting', 'lowest', 'highest'.
+
+2. Giải pháp là gì
+ - Store sẽ nhận dữ liệu trả về từ server, mỗi dữ liệu trả về sẽ được format thành 1 object gồm 2 trường 'time' và 'result'. Trong đó 'time' sẽ là thời gian cập nhật dữ liệu (thời gian này sẽ được lấy dựa vào hệ thống), 'result' sẽ là khối dữ liệu nhận được. Sau đó client sẽ nhận object này để thực hiện xử lý hiển thị kết quả. Ở client em sẽ có 2 biến là 'data' và 'data_history', 'data' sẽ push dữ liệu khi nhận được kết quả, 'data_history' sẽ set lại state sau 2s và dữ liệu nhận được chính là 'data'. Nếu button thực hiện event 'Pause' thì 'data_history' sẽ ngưng không set state nữa và ngược lại.
+
+3. Tự đánh giá kết quả
+ - Kết quả bài test react này của em thực sự chưa tốt.

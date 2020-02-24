@@ -1,0 +1,17 @@
+1. Vấn đề, khó khăn là gì
+ - Chưa thể lấy dữ liệu từ api về do url bị block (Coding 2).
+
+2. Hướng phân tích, giải pháp là gì
+ - Coding 1: 
+  + Câu 1: để tính tổng dãy số trong mảng, em cho chạy vòng for.
+  + Câu 2: em dùng đệ quy để tính số Fibonacci
+ - Coding 2:
+  + Dựa vào cấu trúc json, em sẽ tách từng dữ liệu thuộc 'criteria', tiếp đến dựa vào dữ liệu vừa tách em tiếp tục lấy tiêp dữ liệu từ 'indices'
+  + Hàm search sẽ dựa vào array chứa dữ liệu từ trường 'criteria', từ đây em dựa vào 'name' để lấy dữ liệu ra so sánh với dữ liệu search. Em sử dụng hàm indexOf để kiểm tra, nếu kết quả trả về khác -1 thì return một array chứa các kết quả.
+ - Coding 3: được chia ra làm 3 component con
+  + Main: nơi chứa list các video từ youtube, dựa vào ID của video đó để hiện thị lên màn hình
+  + Search: nơi sẽ kiểm tra và trả về video cần tìm, search dựa vào tên của video đó. 
+  + ShowList: nhận một mảng chứa kết quả từ event search và hiển thị các video lên màn hình.
+
+3. Tự đánh giá kết quả
+ - Bài test này em làm được 70%.

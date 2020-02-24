@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            max-width: 980px;
+            margin: 15px;
+            float: left;
+            border: solid 1px #e6e6e6;
+            box-shadow: 1px 2px 3px gray;
+        }
+
+        .row {
+            width: 100%;
+            float: left;
+        }
+
+        .comment {
+            cursor: pointer;
+            user-select: none;
+            padding: 2px 10px;
+            border-radius: 25px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            background: #e6e6e6;
+            float: left;
+            color: #3399ff;
+        }
+
+        .comment label {
+            cursor: pointer;
+            float: right;
+            margin: 7px 7px 7px 7px;
+        }
+
+        .border-bottom {
+            border-bottom: solid 1px #e6e6e6;
+        }
+
+        .border-top {
+            margin-top: 10px;
+            border-top: solid 1px #e6e6e6;
+        }
+
+        .icons {
+            background: #f9f9f9;
+        }
+
+        .icons img {
+            margin: 15px 7px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .icons img:nth-child(1) {
+            margin: 15px;
+            float: left;
+        }
+
+        .icons img:nth-child(2) {
+            margin-right: 15px;
+        }
+
+        .icon-comment {
+            float: left;
+        }
+
+        .avatars {
+            width: 96% !important;
+            margin-left: 19px;
+        }
+
+        .avatar {
+            cursor: pointer;
+            margin: 15px 15px 15px 0px;
+            float: left;
+            border-radius: 50%;
+            width: 3%;
+        }
+
+        .col-avt {
+            float: left;
+            width: 7%;
+        }
+
+        .col-avt .avatar {
+            width: 42%;
+            margin-left: 15px;
+        }
+
+        .col-msg {
+            word-wrap: break-word;
+            max-width: 75%;
+            float: left;
+        }
+
+        .col-msg .messages:nth-child(1) {
+            margin-top: 15px;
+        }
+
+        .messages {
+            margin-bottom: 10px;
+            padding: 7px 20px;
+            background: #cce6ff;
+            border-radius: 15px;
+            width: auto;
+        }
+
+        .messages-notify {
+            float: left;
+            padding: 0px 10px;
+            background: #e6e6e6;
+        }
+
+        .messages-notify div {
+            width: auto;
+            float: left;
+        }
+
+        .messages-notify div:nth-child(2) {
+            margin: 8px 5px 0px 7px;
+        }
+
+        .date-time {
+            width: 100%;
+            float: left;
+            color: #b5b5b5;
+            margin-bottom: 15px;
+        }
+
+        .tag-name {
+            background: #32bafb52;
+            color: #3399ff;
+            font-style: normal;
+            cursor: pointer;
+        }
+
+        .icon-msg {
+            margin: 0;
+        }
+
+        .user-name {
+            margin-top: 20px;
+            margin-bottom: 12px;
+            width: 100%;
+            float: left;
+        }
+
+        .user-name div {
+            float: left;
+        }
+
+        .user-name div:nth-child(1) {
+            margin-right: 5px;
+            font-weight: bolder;
+        }
+
+        .user-name div:nth-child(2) {
+            color: #b5b5b5;
+        }
+
+        .msg-warning {
+            padding: 0px 20px 20px 20px;
+            float: left;
+            background: #fff2e6;
+            border: solid 1px #e6e6e6;
+        }
+
+        .col-msg-warning {
+            max-width: 92%;
+        }
+
+        .icon-notify div a {
+            margin-top: 9px;
+            float: left;
+            color: #000000;
+        }
+
+        .icon-notify img {
+            margin-right: 5px;
+            float: left;
+        }
+
+        .icons-warning {
+            margin-bottom: 1.5em;
+            border-left: solid 4px #ff9633;
+        }
+
+        .box-assigned-to {
+            background: #ffffff;
+            border: solid 1px #e6e6e6;
+            border-radius: 5px;
+            width: auto;
+            padding: 5px 10px;
+            margin-bottom: 1.5em;
+        }
+
+        .file-PDF {
+            background: #ffffff;
+            border: solid 1px #e6e6e6;
+            border-radius: 25px;
+            width: auto;
+            padding: 5px 10px;
+        }
+
+        .file-PDF img,
+        .file-PDF div {
+            float: left;
+        }
+
+        .file-PDF img {
+            margin-right: 2px;
+        }
+
+        .file-PDF div {
+            margin-top: 7px;
+            padding-right: 5px;
+        }
+
+        .table-infor {
+            margin-bottom: 1.5em;
+        }
+
+        .thead,
+        .tbody {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- ========= Sticky Top ========= -->
+        <div class="row border-bottom icons">
+            <!-- ========= Icon left ========= -->
+            <img src="./icons/Cross-Large.svg">
+            <!-- ========= Icon right ========= -->
+            <img src="./icons/Triple-Dot.svg">
+            <img src="./icons/Clear.svg">
+            <img src="./icons/Work.svg">
+            <img src="./icons/To-Do-List.svg">
+        </div>
+        <!-- ========= Box Chat ========= -->
+        <div class="row box-chat">
+            <!-- ========= Bronwyn Fredrickson ========= -->
+            <div class="row">
+                <div class="col-avt">
+                    <img class="avatar" src="./avatars/Avatar-Bronwyn-Fredrickson.jpg">
+                </div>
+                <div class="col-msg col-msg-warning">
+                    <div class="user-name">
+                        <div>
+                            Bronwyn Fredrickson
+                        </div>
+                        <div>
+                            Sep 21, 9:42pm
+                        </div>
+                    </div>
+                    <div class="msg-warning">
+                        <div class="row">
+                            <h2>
+                                Summary of Financial Review Meeting
+                            </h2>
+                        </div>
+                        <div class="row icons-warning">
+                            <div class="row icon-notify">
+                                <img src="./icons/Work-Thin.svg">
+                                <div>
+                                    <a href="#">Monthly Account December 2016</a>
+                                </div>
+                            </div>
+                            <div class="row icon-notify">
+                                <img src="./icons/Contact-Organization-Thin.svg">
+                                <div>
+                                    <a href="#">Workshop Cafe & Bar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row box-assigned-to">
+                            Assigned to Shaun Carroll in Progress
+                        </div>
+                        <!-- ========= Table infor ========= -->
+                        <div class="row table-infor">
+                            <!-- ========= Hearder ========= -->
+                            <div class="thead">
+                                We've been preparing the Reach Foundation accounts for 2015 tx year and we've notice one
+                                of the trustees has a postal address in the USA:
+                            </div>
+                            <!-- ========= Body ========= -->
+                            <div class="tbody">
+                                <div class="tline">
+                                    1 - This means we need to fill out a coupl urna sodales molestie ut vitae arcu.
+                                </div>
+                                <div class="tline">
+                                    2 - Aliquam erat volutpat. Suspendisse finibus felis eget pellentesque faucibus.
+                                </div>
+                                <div class="tline">
+                                    3 - Vestibulum cursus vestibulum mauris ac interdum. Nunc congue placerat sapien in
+                                    tincidunt. Proin vel libero non metus porttitor
+                                </div>
+                            </div>
+                            <!-- ========= Footer ========= -->
+                            <div class="tfooter">
+                                consectetur. In allquet enim vel od fells eget pellentesque faucibus. Vestibulum cursus
+                                vestibulum mauris ac interdum. Nunc congue placerat sapien in tincidunt. Poin vel libero
+                                non metus porttitor consectetur.
+                            </div>
+                        </div>
+                        <div class="row file-PDF">
+                            <img src="./icons/File-PDF.svg">
+                            <div>
+                                194 form - Reach Foundation
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ========= Nick Smith ========= -->
+            <div class="row">
+                <div class="col-avt">
+                    <img class="avatar" src="./avatars/Avatar-Nick-Smith.jpg">
+                </div>
+                <div class="col-msg">
+                    <div class="messages messages-notify">
+                        <div>
+                            <img class="icon-msg" src="./icons/Work-Thin.svg">
+                        </div>
+                        <div>
+                            <strong>Nick Smith</strong>
+                            added this to Monthly Silver Service for Reach Foundation
+                        </div>
+                    </div>
+                    <div class="messages messages-notify">
+                        <div>
+                            <img class="icon-msg" src="./icons/To-Do-List-Thin.svg">
+                        </div>
+                        <div>
+                            <strong>Nick Smith</strong>
+                            assigned this to Bronwyn Frerickson
+                        </div>
+                    </div>
+                    <div class="messages messages-notify">
+                        <div>
+                            <img class="icon-msg" src="./icons/Flag-Thin.svg">
+                        </div>
+                        <div>
+                            <strong>Nick Smith</strong>
+                            changed the status from 'Planned' to 'In Progress'
+                        </div>
+                    </div>
+                    <div class="date-time">
+                        Sep 21, 9:44pm
+                    </div>
+                </div>
+            </div>
+            <!-- ========= John Freeman ========= -->
+            <div class="row">
+                <div class="col-avt">
+                    <img class="avatar" src="./avatars/Avatar-John-Freeman.jpg">
+                </div>
+                <div class="col-msg">
+                    <div class="messages">
+                        <strong>John Freeman</strong>
+                        Thanks for that <i class="tag-name">@tim_dohohoue</i>. I found another reference worth looking
+                        at on the
+                        Quickbooks
+                        form <a href="#">http://forum.quickbooks.com/article/789965423</a>
+                    </div>
+                    <div class="messages">
+                        Aside from that, all looks good!
+                    </div>
+                    <div class="date-time">
+                        22m ago
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========= Sticky Bottom ========= -->
+        <div class="row border-top avatars">
+            <!-- ========= Avatar ========= -->
+            <img class="avatar" src="./avatars/Avatar-Pax Zwanikken.jpg">
+            <!-- ========= Comment ========= -->
+            <div class="comment">
+                <label>Comment</label>
+                <img class="icon-comment" src="./icons/Triple-Dot.svg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

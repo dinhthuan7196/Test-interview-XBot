@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Chevron-Left-Large</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Chevron-Left-Large" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chevron-Left-Large-Copy">
+            <rect id="Icon-Boundary-Box-Copy-16" x="0" y="0" width="32" height="32"></rect>
+            <path d="M16.0380722,19.5870928 L25.2928049,10.3300478 C25.6832804,9.93947473 26.3164454,9.93939564 26.7070185,10.3298711 C27.0975915,10.7203467 27.0976706,11.3535116 26.7071951,11.7440847 L16.74675,21.7070185 C16.3567849,22.097081 15.7246281,22.0977444 15.3338452,21.7085011 L5.29429031,11.7085011 C4.90299595,11.3187484 4.90174618,10.6855847 5.29149888,10.2942903 C5.68125158,9.90299595 6.31441533,9.90174618 6.70570969,10.2914989 L16.0380722,19.5870928 Z" id="Done-Copy-2" fill="#2872D3" fill-rule="nonzero" transform="translate(16.000000, 16.000000) rotate(90.000000) translate(-16.000000, -16.000000) "></path>
+        </g>
+    </g>
+</svg>

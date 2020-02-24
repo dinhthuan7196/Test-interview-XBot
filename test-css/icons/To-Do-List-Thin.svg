@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>To-Do-List-Thin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="To-Do-List-Thin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Icon-Boundary-Box-Copy-4" x="0" y="0" width="32" height="32"></rect>
+            <path d="M13,12 L23,12 L23,13 L13,13 L13,12 Z M13,16 L23,16 L23,17 L13,17 L13,16 Z M13,20 L23,20 L23,21 L13,21 L13,20 Z M9,16 L10,16 L10,17 L9,17 L9,16 Z M9,12 L10,12 L10,13 L9,13 L9,12 Z" id="Rectangle-12" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

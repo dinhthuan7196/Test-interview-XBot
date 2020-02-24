@@ -1,0 +1,138 @@
+label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main {
+  margin: 20px 30px;
+}
+.row {
+  float: left;
+  width: 100%;
+}
+.thead div{
+  padding: 5px;
+  font-weight: 600;
+}
+.tbody div {
+  padding: 0px 5px;
+}
+.thead div,
+.tbody div {
+  float: left;
+  width: 18%;
+}
+.log .content {
+  min-height: 450px;
+  max-height: 450px;
+  overflow: auto;
+}
+.summary .content {
+  min-height: 200px;
+  max-height: 200px;
+  overflow: auto;
+}
+.content {
+  float: left;
+  padding: 5px;
+  margin: 15px 0px;
+  width: 98%;
+  border: solid 1px #000000;
+}
+.content .padding-tb-10 {
+  width: 98%;
+  padding-left: 10px;
+}
+.padding-tb-10 {
+  padding: 10px 0px;
+}
+.padding-tb-15 {
+  padding: 15px 0px;
+}
+.btn-resume, .btn-pause {
+  user-select: none;
+  cursor: pointer;
+  width: auto;
+  float: right;
+  padding: 5px 10px 7px 10px;
+  border: solid 1.5px #000000;
+}
+.btn-resume {
+  background: chartreuse;
+}
+.btn-pause {
+  background: goldenrod;
+}
+.div-button {
+  height: 33px;
+}
+.col-50 {
+  margin: 0px 20px;
+  padding: 5px 10px;
+  float: left;
+  width: 45%;
+}
+.container {
+  float: left;
+  width: 97.8%;
+  padding: 13px;
+  border: solid 1px #000000;
+}
+.col-tab-50 {
+  float: left;
+  width: 49.14%;
+}
+.div-border {
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  border-bottom: solid 1px #000000;
+}
+.div-border:hover {
+  background: #eeeaea;
+}
+.tab_active {
+  border: solid 1px #000000;
+  border-bottom: none !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

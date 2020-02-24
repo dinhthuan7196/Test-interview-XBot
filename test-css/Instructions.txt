@@ -1,0 +1,14 @@
+To gain an understanding of how you interpret a visual design into built HTML, we would like you to build this conversation view for us as if it was part of a responsive web page. 
+
+Please pay particular attention to visual accuracy and the structure of your DOM and CSS. Use HTML and CSS only. No Javascript, frameworks, etc.
+
+Mobile screen layout should remain until 600px wide. Medium screen layout from 601px and above.
+
+It should be compatible with the latest stable build of Chrome Browser.
+
+Build as much as you can in up to two hours. Don't worry if you don't get all the way through it.
+
+Any questions please email me at maidh@xbot.com.vn
+
+Thanks,
+Marco

@@ -1,0 +1,17 @@
+1. Vấn đề, khó khăn là gì
+ - Responsive theo kích thước phù hợp cho từng thiết bị (desktop, tablet, mobile).
+
+2. Hướng phân tích, giải pháp là gì
+ - Em chia ra làm 3 phần nhỏ để xử lý
+  + Sticky top: phần này sẽ là nơi xử lý các event của khung chat.
+  + Main: nơi hiển thị nội dung cuộc hội thoại.
+  + Sticky bottom: là nơi sẽ cho phép người dùng nhập liệu thông tin để trao đổi với đối tượng khác.
+ - CSS cho từng phần trên sẽ được phân chia cho từng độ phân giải. 
+   VD: avatar khi trên desktop sẽ có css như sau .avatart {width: 30%;}, nhưng khi hiển thị trên mobile thì sẽ được hiển thị theo độ rộng khác như sau 
+	@media only screen and (max-width: 768px) {
+  		.avatart {width: 100%;}
+	}
+ - Như vậy css cho từng độ phân giải cho màn hình sẽ được quy định trong phạm vi do mình quyết định.
+
+3. Tự đánh giá kết quả
+ - Bài test của em hiện tại chưa responsive theo như yêu cầu nên chưa đạt.
